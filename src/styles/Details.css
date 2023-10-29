@@ -1,0 +1,35 @@
+.details-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.image-container {
+    width: 50%;
+}
+
+.product-image {
+    width: 50%;
+    height: 50%;
+    margin-left: 150px;
+}
+
+.info-container {
+    width: 50%;
+}
+
+.add-to-cart-button,
+.buy-now-button {
+    background-color: #F48FB1;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.add-to-cart-button:hover,
+.buy-now-button:hover {
+    background-color: #EC407A;
+}
